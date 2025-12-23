@@ -1,6 +1,25 @@
-# 💸 App de Organização de Finanças Pessoais "Mentor Financeiro" by Ricardo Freitas
 
-1. PRD REVISADO (COM DESIGN UNIVERSAL)
+
+# 💸 Mentor Financeiro - App de Organização de Finanças Pessoais
+
+> Controle suas finanças com a simplicidade de uma conversa.
+
+## 📋 Sumário
+- [Visão Geral](#visão-geral)
+- [Funcionalidades Principais](#funcionalidades-principais)
+- [O Diferencial: Design Universal e IA](#o-diferencial-design-universal-e-ia)
+- [Estado Atual do Aplicativo](#estado-atual-do-aplicativo)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Próximos Passos](#próximos-passos)
+- [Reflexão sobre o Processo](#reflexão-sobre-o-processo)
+
+## 📖 Visão Geral
+
+Este é um aplicativo de organização financeira pessoal que utiliza uma interface conversacional para tornar o controle de gastos simples, acessível e educativo. O objetivo é eliminar a complexidade dos aplicativos financeiros tradicionais, que exigem preenchimento manual de formulários e possuem interfaces carregadas.
+
+Através de um assistente inteligente, os usuários podem registrar despesas, criar metas e receber dicas financeiras personalizadas usando linguagem natural, como se estivessem conversando com um amigo.
+
+### PRD Revisado (Com Design Universal)
 
 ```txt
 1.1 Visão Geral do Produto
@@ -123,30 +142,32 @@ Esboço de validação inicial (testes com usuários iniciantes e diversos perfi
 Utilizar linguagem acessível, educativa e em português, evitando jargões técnicos.
 ```
 
-Interações com o lovable
+## 🖼️ Demonstração do Aplicativo
+
+### Interações com o Lovable
 > Crie um App de Finanças com base no seguinte PRD (Product Requirements Document) {PRD}
 
-Resultado final no lovable: https://money-mindful-chat.lovable.app/
+### Resultado Final
+**Link para o aplicativo:** https://money-mindful-chat.lovable.app/
 
-<img width="1003" height="557" alt="image" src="https://github.com/user-attachments/assets/41ad0472-d84b-4850-91e8-2fb57829a891" />
+### Telas do Aplicativo
 
-<img width="1355" height="605" alt="image" src="https://github.com/user-attachments/assets/e9bbd187-0beb-4cdc-a105-50282e5524a0" />
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <div style="flex: 1; min-width: 300px;">
+    <img width="100%" alt="Tela Principal" src="https://github.com/user-attachments/assets/41ad0472-d84b-4850-91e8-2fb57829a891" />
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <img width="100%" alt="Tela de Chat" src="https://github.com/user-attachments/assets/e9bbd187-0beb-4cdc-a105-50282e5524a0" />
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <img width="100%" alt="Tela de Histórico" src="https://github.com/user-attachments/assets/b2764b2a-133a-40ad-a90e-a01f3f3fc038" />
+  </div>
+  <div style="flex: 1; min-width: 300px;">
+    <img width="100%" alt="Tela de Resumo" src="https://github.com/user-attachments/assets/fb27168c-50c0-45e8-8619-bff6eb86ba02" />
+  </div>
+</div>
 
-<img width="1345" height="593" alt="image" src="https://github.com/user-attachments/assets/b2764b2a-133a-40ad-a90e-a01f3f3fc038" />
-
-<img width="1345" height="587" alt="image" src="https://github.com/user-attachments/assets/fb27168c-50c0-45e8-8619-bff6eb86ba02" />
-
-# Assistente Financeiro Conversacional
-
-> Controle suas finanças com a simplicidade de uma conversa.
-
-## Sobre o Projeto
-
-Este é um aplicativo de organização financeira pessoal que utiliza uma interface conversacional para tornar o controle de gastos simples, acessível e educativo. O objetivo é eliminar a complexidade dos aplicativos financeiros tradicionais, que exigem preenchimento manual de formulários e possuem interfaces carregadas.
-
-Através de um assistente inteligente, os usuários podem registrar despesas, criar metas e receber dicas financeiras personalizadas usando linguagem natural, como se estivessem conversando com um amigo.
-
-## Funcionalidades Principais
+## ✨ Funcionalidades Principais
 
 - **🗣️ Registro de Gastos via Chat:** Adicione despesas simplesmente digitando frases como "Gastei R$ 30 com transporte ontem".
 - **🤖 Classificação Inteligente:** O sistema identifica e categoriza automaticamente suas transações (alimentação, lazer, contas, etc.).
@@ -154,7 +175,7 @@ Através de um assistente inteligente, os usuários podem registrar despesas, cr
 - **📚 Assistente Financeiro:** Receba orientações e dicas de economia de um agente educacional, com uma abordagem amigável e sem jargões técnicos.
 - **📊 Relatórios Simples:** Visualize resumos do seu financeiro de forma clara e acessível, com foco na informação mais importante.
 
-## O Diferencial: Design Universal e IA
+## 🌟 O Diferencial: Design Universal e IA
 
 O projeto é construído com um forte compromisso com o **Design Universal**, garantindo que a experiência seja inclusiva e acessível para o maior número de pessoas possível, independentemente de sua idade, habilidade digital ou necessidades específicas.
 
@@ -163,34 +184,34 @@ O projeto é construído com um forte compromisso com o **Design Universal**, ga
 - **Baixa Carga Cognitiva:** Interações curtas e progressivas que não sobrecarregam o usuário.
 - **Tom Empático:** O assistente financeiro foi projetado para ser um apoiador, e não um fiscal.
 
-## Estado Atual do Aplicativo
+## 📱 Estado Atual do Aplicativo
 
 O aplicativo está em sua fase inicial de desenvolvimento. As telas atuais, como as de "Histórico" e "Resumo Financeiro", apresentam um estado limpo, convidando o usuário a começar a interagir.
 
-**Tela de Histórico:**
-*   Exibe "0 transações" e a mensagem "Nenhuma transação encontrada".
-*   Contém uma chamada para ação: "Comece a registrar seus gastos no chat!".
+### Tela de Histórico
+- Exibe "0 transações" e a mensagem "Nenhuma transação encontrada".
+- Contém uma chamada para ação: "Comece a registrar seus gastos no chat!".
 
-**Tela de Resumo:**
-*   Mostra um resumo financeiro com valores zerados ("Gastos hoje: R$ 0,00").
-*   Indica a ausência de metas e gastos recentes, incentivando o usuário a criar seu primeiro objetivo.
+### Tela de Resumo
+- Mostra um resumo financeiro com valores zerados ("Gastos hoje: R$ 0,00").
+- Indica a ausência de metas e gastos recentes, incentivando o usuário a criar seu primeiro objetivo.
 
 Essas telas refletem o foco do aplicativo em guiar o usuário a começar sua jornada financeira pelo chat.
 
-## Tecnologias Utilizadas (Conceitual)
+## 🛠️ Tecnologias Utilizadas (Conceitual)
 
 - **Processamento de Linguagem Natural (PLN):** Para entender e interpretar as mensagens do usuário.
 - **Machine Learning:** Para a classificação automática e inteligente das transações.
 - **Princípios de Design Universal e Acessibilidade (WCAG):** Para guiar o desenvolvimento da interface do usuário (UI).
 
-## Próximos Passos
+## 🚀 Próximos Passos
 
 - [ ] Refinar o modelo de IA para maior precisão na classificação de gastos.
 - [ ] Implementar interação por voz (comando de áudio).
 - [ ] Desenvolver novas funcionalidades de relatórios e insights personalizados.
 - [ ] Explorar integrações com APIs bancárias (Open Banking) para automação futura.
 
-## 🧠 Reflexão
+## 🧠 Reflexão sobre o Processo
 
 ### O que funcionou bem?
 O refinamento do PRD previamente feito no Copilot ajudou muito, pois os créditos do Lovable acabaram em apenas 3 interações.
@@ -198,5 +219,7 @@ O refinamento do PRD previamente feito no Copilot ajudou muito, pois os crédito
 ### O que não funcionou como o esperado?
 Esperava poder interagir mais vezes gratuitamente com o Lovable, mas as interações feitas já foram de grande valia para aprender mais sobre Vibe Coding.
 
+### O que aprendi sobre conversar com IAs?
+Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você dá, melhor é a interação.
 ### O que aprendi sobre conversar com IAs?
 Aprendi que é basicamente igual a conversar com uma pessoa: quanto mais detalhes e clareza você dá, melhor é a interação.
